@@ -1,6 +1,5 @@
 from aiogram import Router, types
 from aiogram.types import FSInputFile
-from ticket_bot import Bot
 from path import ticket_bel_dict, ticket_dict
 
 
