@@ -18,7 +18,7 @@ def choose_plural(amount,declensions):
 @router.message(Command(commands=['by']))
 async def BY_language(message: types.Message):
     await message.answer(
-                            text='<b>Клавиатура была сменена для беларусских билетов.</b>',
+                            text='<b>Клавиатура теперь для билетов на белорусском языке.</b>',
                             reply_markup=kb_bel,
                             parse_mode='HTML')
     
@@ -26,7 +26,7 @@ async def BY_language(message: types.Message):
 async def RU_language(message: types.Message):
     await message.answer(
         
-        text='<b>Клавиатруа была сменена для русских билетов.</b>',
+        text='<b>Клавиатура теперь для билетов на русском языке.</b>',
         reply_markup=kb,
         parse_mode='HTML'
     )
