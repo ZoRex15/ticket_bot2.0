@@ -25,6 +25,18 @@ kb_bel = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True, keybo
     [KeyboardButton(text='Билет 25 Б')]
 ])
 
+voise_kb = ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True,keyboard=[
+    [KeyboardButton(text='Билет 1 Г'), KeyboardButton(text='Билет 2 Г'), KeyboardButton(text='Билет 3 Г')],
+    [KeyboardButton(text='Билет 4 Г'), KeyboardButton(text='Билет 5 Г'), KeyboardButton(text='Билет 6 Г')],
+    [KeyboardButton(text='Билет 7 Г'), KeyboardButton(text='Билет 8 Г'), KeyboardButton(text='Билет 9 Г')],
+    [KeyboardButton(text='Билет 10 Г'), KeyboardButton(text='Билет 11 Г'), KeyboardButton(text='Билет 12 Г')],
+    [KeyboardButton(text='Билет 13 Г'), KeyboardButton(text='Билет 14 Г'), KeyboardButton(text='Билет 15 Г')],
+    [KeyboardButton(text='Билет 16 Г'), KeyboardButton(text='Билет 17 Г'), KeyboardButton(text='Билет 18 Г')],
+    [KeyboardButton(text='Билет 19 Г'), KeyboardButton(text='Билет 20 Г'), KeyboardButton(text='Билет 21 Г')],
+    [KeyboardButton(text='Билет 22 Г'), KeyboardButton(text='Билет 23 Г'), KeyboardButton(text='Билет 24 Г')],
+    [KeyboardButton(text='Билет 25 Г')]
+])
+
 
 
 
