@@ -26,3 +26,19 @@ ticket_bel_dict = {'билет 1 б':'ticket_bel/Б1.pdf', 'билет 2 б': 't
                 'билет 23 б':'ticket_bel/Б23.pdf', 'билет 24 б':'ticket_bel/Б24.pdf',
                 'билет 25 б':'ticket_bel/Б25.pdf'
 }
+
+voise_ticket = {
+    'билет 1 г':'ticket_voise/Билет 1.mp3', 'билет 2 г': 'ticket_voise/Билет 2.mp3',
+    'билет 3 г':'ticket_voise/Билет 3.mp3', 'билет 4 г':'ticket_voise/Билет 4.mp3',
+    'билет 5 г':'ticket_voise/Билет 5.mp3', 'билет 6 г':'ticket_voise/Билет 6.mp3',
+    'билет 7 г':'ticket_voise/Билет 7.mp3', 'билет 8 г':'ticket_voise/Билет 8.mp3',
+    'билет 9 г':'ticket_voise/Билет 9.mp3', 'билет 10 г':'ticket_voise/Билет 10.pdf',
+    'билет 11 г':'ticket_voise/Билет 11.mp3', 'билет 12 г':'ticket_voise/Билет 12.mp3',
+    'билет 13 г':'ticket_voise/Билет 13.mp3', 'билет 14 г':'ticket_voise/Билет 14.mp3',
+    'билет 15 г':'ticket_voise/Билет 15.mp3', 'билет 16 г':'ticket_voise/Билет 16.mp3',
+    'билет 17 г':'ticket_voise/Билет 17.mp3', 'билет 18 г':'ticket_voise/Билет 18.mp3',
+    'билет 19 г':'ticket_voise/Билет 19.mp3', 'билет 20 г':'ticket_voise/Билет 20.mp3',
+    'билет 21 г':'ticket_voise/Билет 21.mp3', 'билет 22 г':'ticket_voise/Билет 22.mp3',
+    'билет 23 г':'ticket_voise/Билет 23.mp3', 'билет 24 г':'ticket_voise/Билет 24.mp3',
+    'билет 25 г':'ticket_voise/Билет 25.mp3'
+}
