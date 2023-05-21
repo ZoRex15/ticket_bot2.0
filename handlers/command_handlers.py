@@ -1,6 +1,6 @@
 from aiogram import types, Router
 from aiogram.filters import Command
-from keyboard import kb, kb_bel, ikb
+from keyboard import kb, kb_bel, ikb, voise_kb
 from text import start_text, commands_text, help_text
 import datetime
 
@@ -13,6 +13,14 @@ def choose_plural(amount,declensions):
         return f'{amount} {declensions[1]}'
     else:
         return f'{amount} {declensions[2]}'
+    
+@router.message(Command(commands=['voise']))
+async def send_voise(message:types.Message):
+    await message.answer(
+        text='<b>Клавиатура теперь для билетов в виде аудио файла.</b>',
+        reply_markup=voise_kb,
+        parse_mode='HTML',
+    )
 
 
 @router.message(Command(commands=['by']))
@@ -25,7 +33,6 @@ async def BY_language(message: types.Message):
 @router.message(Command(commands=['ru']))
 async def RU_language(message: types.Message):
     await message.answer(
-        
         text='<b>Клавиатура теперь для билетов на русском языке.</b>',
         reply_markup=kb,
         parse_mode='HTML'
