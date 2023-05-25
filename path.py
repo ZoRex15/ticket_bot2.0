@@ -32,7 +32,7 @@ voise_ticket = {
     'билет 3 г':'ticket_voise/Билет 3.mp3', 'билет 4 г':'ticket_voise/Билет 4.mp3',
     'билет 5 г':'ticket_voise/Билет 5.mp3', 'билет 6 г':'ticket_voise/Билет 6.mp3',
     'билет 7 г':'ticket_voise/Билет 7.mp3', 'билет 8 г':'ticket_voise/Билет 8.mp3',
-    'билет 9 г':'ticket_voise/Билет 9.mp3', 'билет 10 г':'ticket_voise/Билет 10.pdf',
+    'билет 9 г':'ticket_voise/Билет 9.mp3', 'билет 10 г':'ticket_voise/Билет 10.mp3',
     'билет 11 г':'ticket_voise/Билет 11.mp3', 'билет 12 г':'ticket_voise/Билет 12.mp3',
     'билет 13 г':'ticket_voise/Билет 13.mp3', 'билет 14 г':'ticket_voise/Билет 14.mp3',
     'билет 15 г':'ticket_voise/Билет 15.mp3', 'билет 16 г':'ticket_voise/Билет 16.mp3',
@@ -41,4 +41,36 @@ voise_ticket = {
     'билет 21 г':'ticket_voise/Билет 21.mp3', 'билет 22 г':'ticket_voise/Билет 22.mp3',
     'билет 23 г':'ticket_voise/Билет 23.mp3', 'билет 24 г':'ticket_voise/Билет 24.mp3',
     'билет 25 г':'ticket_voise/Билет 25.mp3'
+}
+
+ticket_2_path = {
+    'билет 1':'ticket_2/bilet_1_rus.pdf', 'билет 2': 'ticket_2/bilet_2_rus.pdf',
+    'билет 3':'ticket_2/bilet_3_rus.pdf', 'билет 4':'ticket_2/bilet_4_rus.pdf',
+    'билет 5':'ticket_2/bilet_5_rus.pdf', 'билет 6':'ticket_2/bilet_6_rus.pdf',
+    'билет 7':'ticket_2/bilet_7_rus.pdf',
+    'билет 9':'ticket_2/bilet_9_rus.pdf', 'билет 10':'ticket_2/bilet_10_rus.pdf',
+    'билет 11':'ticket_2/bilet_11_rus.pdf', 'билет 12':'ticket_2/bilet_12_rus.pdf',
+    'билет 13':'ticket_2/bilet_13_rus.pdf', 'билет 14':'ticket_2/bilet_14_rus.pdf',
+    'билет 15':'ticket_2/bilet_15_rus.pdf', 'билет 16':'ticket_2/bilet_16_rus.pdf',
+    'билет 17':'ticket_2/bilet_17_rus.pdf', 'билет 18':'ticket_2/bilet_18_rus.pdf',
+    'билет 20':'ticket_2/bilet_20_rus.pdf',
+    'билет 21':'ticket_2/bilet_21_rus.pdf', 'билет 22':'ticket_2/bilet_22_rus.pdf',
+    'билет 23':'ticket_2/bilet_23_rus.pdf', 'билет 24':'ticket_2/bilet_24_rus.pdf',
+    'билет 25':'ticket_2/bilet_25_rus.pdf'
+}
+
+ticket_2_path_bel = {
+    'билет 1 б':'ticket_2_bel/bilet-1.pdf', 'билет 2 б': 'ticket_2_bel/bilet-2.pdf',
+    'билет 3 б':'ticket_2_bel/bilet-3.pdf', 'билет 4 б':'ticket_2_bel/bilet-4.pdf',
+    'билет 5 б':'ticket_2_bel/bilet-5.pdf', 'билет 6 б':'ticket_2_bel/bilet-6.pdf',
+    'билет 7 б':'ticket_2_bel/bilet-7.pdf',
+    'билет 9 б':'ticket_2_bel/bilet-9.pdf', 'билет 10 б':'ticket_2_bel/bilet-10.pdf',
+    'билет 11 б':'ticket_2_bel/bilet-11.pdf', 'билет 12 б':'ticket_2_bel/bilet-12.pdf',
+    'билет 13 б':'ticket_2_bel/bilet-13.pdf', 'билет 14 б':'ticket_2_bel/bilet-14.pdf',
+    'билет 15 б':'ticket_2_bel/bilet-15.pdf', 'билет 16 б':'ticket_2_bel/bilet-16.pdf',
+    'билет 17 б':'ticket_2_bel/bilet-17.pdf', 'билет 18 б':'ticket_2_bel/bilet-18.pdf',
+    'билет 20 б':'ticket_2_bel/bilet-20.pdf',
+    'билет 21 б':'ticket_2_bel/bilet-21.pdf', 'билет 22 б':'ticket_2_bel/bilet-22.pdf',
+    'билет 23 б':'ticket_2_bel/bilet-23.pdf', 'билет 24 б':'ticket_2_bel/bilet-24.pdf',
+    'билет 25 б':'ticket_2_bel/bilet-25.pdf'
 }
